@@ -1,4 +1,3 @@
-//Sintaxe para definição de uma function//
 window.addEventListener('scroll', onScroll)
 
 onScroll()
@@ -58,6 +57,7 @@ function showBackToTopOnScroll() {
 function openMenu() {
   document.body.classList.add('menuExpandido')
 }
+
 function closeMenu() {
   document.body.classList.remove('menuExpandido')
 }
